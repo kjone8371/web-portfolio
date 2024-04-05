@@ -1,0 +1,142 @@
+
+.section {
+  background-color: black;
+}
+
+
+
+.projects {
+  position: relative;
+  height: 450vh;
+}
+
+.horizontal_scroll_wrap {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+.horizontal_scroll_content {
+  display: flex;
+  height: 100%;
+  width: 50vw; 
+  will-change: transform;
+  margin: 0 auto; 
+  transform: 700px;
+}
+
+.about_project {
+  margin: 350px 100px; 
+  padding: 10px; 
+  flex: 0 0 auto;
+  min-width: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #333; 
+  color: #fff; 
+  font-weight: bold; 
+  
+}
+
+.section3_item {
+
+  div {
+    
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100%;
+      
+      font-size: 1vw;
+      font-weight: 700;
+      border-top: 1px solid white;
+      text-align: center;
+      text-transform: uppercase;
+
+      &:hover {
+        transition: 0.25s;
+        background: #10c06b;
+        color: black;
+      }
+      &:not(:hover) {
+        transition: 0.25s;
+      }
+      &:first-child {
+        border-right: 1px solid white;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    div {
+      padding: 0px 0;
+
+      border-bottom: 1px solid white;
+    }
+  }
+  h2 {
+    font-size: 2.2vw;
+    font-weight: 900;
+    line-height: 1.2;
+    padding: 20px;
+    color: #10c06b;
+    border-bottom: 1px solid white;
+  }
+  h4 {
+    padding: 0 20px;
+    margin: 2%;
+    font-size: 1.5vw;
+  }
+  p {
+    width: 32vw;
+    font-size: 1.1vw;
+    line-height: 160%;
+    word-break: keep-all;
+    background: rgba(0, 0, 0, 0.0509803922);
+    color: rgba(255, 255, 255, 0.706);
+
+    padding: 0 20px;
+    &:first-child {
+      margin-bottom: 5px;
+    }
+  }
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}
+.item_desc {
+  margin: 20px 100px;
+      background: rgb(0 0 0 / 90%);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      transform: translate(-122px, 18px);
+      position: relative;
+      color: white;
+      border: 1px solid white;
+      box-shadow: 0 20px 50px -20px #000;
+      display: flex;
+      flex-direction: column;
+  
+  &::after {
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    content: "";
+    width: 2px;
+    height: 20px;
+    background: #10c06b;
+    border-radius: 100px;
+    transform: rotate(45deg);
+  }
+}
+
