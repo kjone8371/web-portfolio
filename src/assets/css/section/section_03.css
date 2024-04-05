@@ -5,9 +5,9 @@
 
 
 
-.projects {
+.skills {
   position: relative;
-  height: 450vh;
+  height: 1200vh; /*스크롤 길이*/
 }
 
 .horizontal_scroll_wrap {
@@ -115,7 +115,7 @@
   }
 }
 .item_desc {
-  margin: 20px 100px;
+  margin: 20px 500px; /* 이거 item 간의 사이 격차*/
       background: rgb(0 0 0 / 90%);
       backdrop-filter: blur(15px);
       -webkit-backdrop-filter: blur(15px);

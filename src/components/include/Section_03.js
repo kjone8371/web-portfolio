@@ -37,8 +37,8 @@ const Section3 = () => {
     
     return (
         <section id='usedStack' className='section'>
-            <section className="projects" ref={scrollSectionRef}>
-
+            <section className="skills" ref={scrollSectionRef}>
+        
                 <div className="horizontal_scroll_wrap">
                     <div className="horizontal_scroll_content" ref={scrollContentRef}>
                       <div className="section3_item">
