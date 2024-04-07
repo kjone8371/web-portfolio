@@ -65,6 +65,7 @@ const Section3 = () => {
                               </p>
                             </div>
                         </div>
+                        
                       </div>
                       <div className="section3_item">
                         <div className="item_desc">

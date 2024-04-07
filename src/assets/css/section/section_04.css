@@ -5,7 +5,7 @@
   
   .projects {
     position: relative;
-    height: 1700vh; /*스크롤 길이*/
+    height: 1550vh; /*스크롤 길이*/
   }
   
   .horizontal_scroll_wrap {
@@ -106,6 +106,21 @@
     transform: rotate(-13.275deg);
     flex-shrink: 0;
     .PCOT{
+        width: 730px;
+        height: 430px;
+        border-radius: 30px;
+    }
+    .Portfolio {
+        width: 730px;
+        height: 430px;
+        border-radius: 30px;
+    }
+    .ExporCar {
+        width: 730px;
+        height: 430px;
+        border-radius: 30px;
+    }
+    .KessDB {
         width: 730px;
         height: 430px;
         border-radius: 30px;
