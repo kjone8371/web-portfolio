@@ -36,7 +36,7 @@ const Section3 = () => {
   }, []);
     
     return (
-        <section id='usedStack' className='section'>
+        <section id='usedStack' className='section3'>
             <section className="skills" ref={scrollSectionRef}>
         
                 <div className="horizontal_scroll_wrap">

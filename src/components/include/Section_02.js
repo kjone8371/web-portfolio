@@ -1,4 +1,4 @@
-import profile from "../../assets/image/KakaoTalk_Photo_2024-01-13-14-43-22-removebg-preview 1.png";
+import profile from "../../assets/image/kim_jeong_won-removebg-preview.png";
 import "../../assets/css/section/section_02.css";
 import React, {useEffect} from "react";
 

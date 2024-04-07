@@ -1,0 +1,115 @@
+.section4 {
+    background-color: black;
+  }
+  
+  
+  .projects {
+    position: relative;
+    height: 1700vh; /*스크롤 길이*/
+  }
+  
+  .horizontal_scroll_wrap {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow: hidden;
+    
+  }
+  
+  .horizontal_scroll_content {
+    display: flex;
+    height: 100%;
+    width: 50vw; 
+    will-change: transform;
+    margin: 0 auto;
+    transform: 700px;
+  }
+
+  .project_main {
+    color: aliceblue;
+    margin: auto;
+    display: flex;
+    transform: translate(-170px, -200px);
+    font-size: 120px;
+    font-style: oblique;
+  }
+
+  .item_desc2{
+    margin: 200px 100px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 46px;
+    width: 807px;
+    height: 425.468px;
+    transform: rotate(9.648deg);
+    flex-shrink: 0;
+    h2 {
+        font-size: 2.5em;
+        margin: auto;
+        padding: 20px 20px;
+    }
+    /* h3{
+        padding: 10px 25px;
+        margin: 0 auto;
+        background-color: white; 
+    } */
+    h3 {
+        display: inline-block; /* 인라인 박스로 설정하여 텍스트에 맞게 크기 조절됩니다. */
+        padding: 5px 10px; /* 텍스트 주변에 여백을 추가합니다. */
+        margin: 0; /* 기본 마진을 제거합니다. */
+        background-color: white; /* 박스의 배경색을 흰색으로 설정합니다. */
+        color: black;
+        transform: translate(25px, -15px);
+    }
+    h1 {
+        transform: translate(25px, -15px);
+    }
+    p {
+        margin: auto;
+        padding: 0px 61px;
+        transform: translate(55px, -55px);
+        font-size: 20px;
+    }
+    .project_pr {
+        background-color: black;
+        border: 1px solid #00FFE0;
+        margin: 0px 50px;
+        width: 700px;
+        height: 50px;
+        flex-shrink: 0;
+        a{
+            text-decoration-line: none;
+            color: aliceblue;
+            padding: 13px 87.8px;
+            line-height: 50px;
+            font-size: 20px;
+            font-weight: 400;
+            transition: background-color 0.3s; /* 배경색 변경에 대한 전환 효과를 추가합니다. */
+            width: 50%;
+            text-align: center;
+            flex: 1;
+        }
+        a:hover {
+            background-color: #10c06b; /* 마우스를 올렸을 때 배경색을 변경합니다. */
+        }
+    }
+}
+
+.item_desc3 {
+    margin: -730px 900px;
+    color: white;
+    border: 15px solid blue;
+    border-radius: 46px;
+    width: 730px;
+    height: 430px;
+    transform: rotate(-13.275deg);
+    flex-shrink: 0;
+    .PCOT{
+        width: 730px;
+        height: 430px;
+        border-radius: 30px;
+    }
+}
+    
+  

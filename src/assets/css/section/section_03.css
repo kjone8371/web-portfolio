@@ -1,13 +1,12 @@
 
-.section {
+.section3 {
   background-color: black;
 }
 
 
-
 .skills {
   position: relative;
-  height: 1200vh; /*스크롤 길이*/
+  height: 900vh; /*스크롤 길이*/
 }
 
 .horizontal_scroll_wrap {
@@ -28,7 +27,7 @@
   transform: 700px;
 }
 
-.about_project {
+/* .about_project {
   margin: 350px 100px; 
   padding: 10px; 
   flex: 0 0 auto;
@@ -44,7 +43,7 @@
   color: #fff; 
   font-weight: bold; 
   
-}
+} */
 
 .section3_item {
 
@@ -115,7 +114,7 @@
   }
 }
 .item_desc {
-  margin: 20px 500px; /* 이거 item 간의 사이 격차*/
+  margin: 20px 200px; /* 이거 item 간의 사이 격차*/
       background: rgb(0 0 0 / 90%);
       backdrop-filter: blur(15px);
       -webkit-backdrop-filter: blur(15px);
