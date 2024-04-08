@@ -7,6 +7,7 @@ import Section2 from "../include/Section_02";
 import Section3 from "../include/Section_03";
 import Section4 from "../include/Section_04";
 import Section5 from "../include/Section_05";
+import Section6 from "../include/Section_06";
 
 import DescFixed from "../layout/DescFixed";
 
@@ -36,6 +37,7 @@ const Main = () => {
             <Section3/>
             <Section4/>
             <Section5/>
+            <Section6/>
             {/* <MouseComponents /> */}
             <DescFixed scrolled={scrolled} />
         </Contents>
