@@ -27,6 +27,19 @@
   transform: 700px;
 }
 
+.used {
+  margin: auto;
+  transform: translate(-150px, 100px);
+  color: white;
+  width: 608px;
+  height: 116px;
+  font-size: 100px;
+  flex-shrink: 0;
+  em {
+    color: #10c06b;
+  }
+}
+
 .section3_item {
 
   div {

@@ -41,6 +41,9 @@ const Section3 = () => {
         
                 <div className="horizontal_scroll_wrap">
                     <div className="horizontal_scroll_content" ref={scrollContentRef}>
+                      <div className="use_skill">
+                        <h1 className="used">USED <em>STACK</em></h1>
+                      </div>
                       <div className="section3_item">
                         <div className="item_desc">
                           <h2>FRONT</h2>
