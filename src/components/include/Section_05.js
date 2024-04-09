@@ -20,7 +20,7 @@ const Section_05 = () => {
     useEffect(() => {
       // 스크롤 위치가 30 이상일 때만 원을 생성합니다.
       if (scrollY >= 30) {
-        const newCircle = { id: circles.length, x: 50, y: scrollY };
+        const newCircle = { id: circles.length, x: 50, y: scrollY};
         setCircles([...circles, newCircle]);
       }
     }, [scrollY]);

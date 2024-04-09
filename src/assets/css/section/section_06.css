@@ -6,3 +6,16 @@
     justify-content: center;
     background-color: black; 
 }
+
+.finshed {
+    h1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+        align-items:center;
+        height: 100vh; /* 화면의 높이를 가득 채우도록 설정 */
+    }
+    
+    
+}
