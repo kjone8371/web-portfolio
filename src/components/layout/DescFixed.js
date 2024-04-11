@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-
+import "../../assets/css/layout/DescFixed.css";
 
 const DescFixed = ({ scrolled }) => {
   useEffect(() => {

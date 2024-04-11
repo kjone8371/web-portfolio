@@ -52,6 +52,7 @@ const Header = () => {
                     <a href="#usedStack">스택</a>
                     <a href="#project">프로젝트</a>
                     <a href="#experience">경험</a>
+                    <a href="#finsh">마치며</a>
                 </div>
                 {/* <button className="menu_bt">메뉴</button> */}
                 <div className="menu_cont mobile">
@@ -59,6 +60,7 @@ const Header = () => {
                     <a href="#usedStack">스택</a>
                     <a href="#project">프로젝트</a>
                     <a href="#experience">경험</a>
+                    <a href="#finsh">마치며</a>
                 </div>
             </div>
         </header>

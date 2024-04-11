@@ -5,7 +5,7 @@ import Winter1 from "../../assets/image/winter1.png"
 
 const Section_06 = () => {
     return (
-        <section className="section6">
+        <section id="finsh" className="section6">
             <div className="finshed">
                 <h1>연락주세요:)</h1>
                 <div className="my_info">
