@@ -84,10 +84,11 @@
     padding: 20px;
     color: #10c06b;
     border-bottom: 1px solid white;
+    margin : 0;
   }
   h4 {
     padding: 0 20px;
-    margin: 2%;
+    margin: 4% 0;
     font-size: 1.5vw;
   }
   p {
@@ -270,4 +271,8 @@
     }
   }
 }
+
+
+
+
 
