@@ -25,7 +25,7 @@ const Header = () => {
           headerBox.current.style.top = "0px";
           // headerBox.current.style.position = "fixed";
         } else {
-          headerBox.current.style.top = "-85px";
+          headerBox.current.style.top = "-95px"; // top속성을 -95px만큼 설정
         }
         setLastScroll(scrollTop); // 지금 현재 스크롤 값을 이전 스크롤 값에 넣은 뒤
       }
