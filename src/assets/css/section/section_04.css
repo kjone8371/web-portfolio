@@ -134,7 +134,7 @@
       
       .projects {
         position: relative;
-        height: 1550vh; 
+        height: 1550vh; /*스크롤 길이*/
       }
       
       .horizontal_scroll_wrap {
