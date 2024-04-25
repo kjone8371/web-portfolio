@@ -6,7 +6,7 @@
 
 ![portfolio_logon2](https://github.com/kjone8371/web-portfolio/assets/103641429/d7053421-c7a1-4e71-9558-690ca87115c0)
 
-(https://portfolio-eadd1.web.app).
+https://portfolio-eadd1.web.app
 
 
 
