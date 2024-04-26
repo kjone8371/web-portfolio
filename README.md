@@ -7,8 +7,20 @@
 ![portfolio_logon2](https://github.com/kjone8371/web-portfolio/assets/103641429/d7053421-c7a1-4e71-9558-690ca87115c0)
 
 
+# Install 해야할 것들
+  ```install
+  npm install
+  npm install react-router-dom
+  npm install aos
+  npm install gsap
+  ```
 
-# 웹 사이트 도메인
+# 구조
+저의 프러젝트 구조는 
+section과 layot, css, components, pages, front가 있습니다.
+
+
+# 웹 사이트 링크 입니다.
 
 https://portfolio-eadd1.web.app
 
