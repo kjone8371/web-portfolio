@@ -1,4 +1,4 @@
-import profile from "../../assets/image/KakaoTalk_Photo_2024-01-13-14-43-22-removebg-preview 1.png";
+import profile from "../../assets/image/kim_jeong_won-removebg-preview.png";
 import "../../assets/css/section/section_02.css";
 import React, {useEffect} from "react";
 
@@ -26,9 +26,9 @@ const Section_02 = () => {
                         <br/>
                         처음에 어떻게 공부를 해야 하는지 몰랐습니다.
                         <br/>
-                        책과 구글링등을 활용하여 탐구하고 칮이보며
+                        책과 구글링등을 활용하여 탐구하고 찾아보며
                         <br/>
-                        스스로 노력 하는 개발자가 되기 위해 스스로 다집을 하게되었습니다.
+                        스스로 노력 하는 개발자가 되기 위해 스스로 다짐을 하게되었습니다.
                         <br/>
                         개발 공부에 시간 가는줄 모르는 매력에 빠지고, 뿌듯함을 느껴 개발자의 길을 걷게 되었습니다.
                         <br/>

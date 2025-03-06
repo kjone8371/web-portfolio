@@ -25,7 +25,7 @@ const Header = () => {
           headerBox.current.style.top = "0px";
           // headerBox.current.style.position = "fixed";
         } else {
-          headerBox.current.style.top = "-85px";
+          headerBox.current.style.top = "-100px"; // top속성을 -95px만큼 설정
         }
         setLastScroll(scrollTop); // 지금 현재 스크롤 값을 이전 스크롤 값에 넣은 뒤
       }
@@ -52,6 +52,7 @@ const Header = () => {
                     <a href="#usedStack">스택</a>
                     <a href="#project">프로젝트</a>
                     <a href="#experience">경험</a>
+                    <a href="#finsh">마치며</a>
                 </div>
                 {/* <button className="menu_bt">메뉴</button> */}
                 <div className="menu_cont mobile">
@@ -59,6 +60,7 @@ const Header = () => {
                     <a href="#usedStack">스택</a>
                     <a href="#project">프로젝트</a>
                     <a href="#experience">경험</a>
+                    <a href="#finsh">마치며</a>
                 </div>
             </div>
         </header>
